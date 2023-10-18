@@ -11,12 +11,18 @@
             width: 400px;
             height: 400px;
         }
+
+        button {
+            margin: 10px;
+        }
     </style>
 </head>
 
 <body>
     <input type="text" placeholder="Enter GitHub username" id="gh-username">
     <button id="xhr-btn">Get User Info using XHR</button>
+    <button id="fetch-btn">Get User Info using Fetch</button>
+    <button id="fetch-async-btn">Get User Info using Fetch async/await</button>
     <hr />
     <h1 id="username"></h1>
     <img id="pic">
